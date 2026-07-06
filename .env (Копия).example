@@ -1,0 +1,39 @@
+# ============================================================================
+#  music_bot — environment configuration
+#  Copy to `.env` and fill in. NEVER commit the real .env.
+# ============================================================================
+
+# --- Telegram ---
+BOT_TOKEN=123456:ABC-your-bot-token-from-BotFather
+BOT_USERNAME=YourMusicBot                 # without the @, used in promo tags/captions
+
+# --- Postgres ---
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=musicbot
+POSTGRES_USER=musicbot
+POSTGRES_PASSWORD=change-me
+
+# --- Redis ---
+REDIS_HOST=redis
+REDIS_PORT=6379
+REDIS_DB=0
+
+# --- Music metadata APIs (metadata + previews only) ---
+# Deezer public API needs no key. Spotify/Last.fm keys are optional enrichment.
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
+LASTFM_API_KEY=
+
+# --- Lyrics ---
+GENIUS_ACCESS_TOKEN=        # https://genius.com/api-clients
+
+# --- Full-track source (YOU supply a licensed backend; empty = previews only) ---
+# See services/audio_source.py — implement LicensedAudioSource and point this at it.
+LICENSED_SOURCE_BASE_URL=
+LICENSED_SOURCE_API_KEY=
+
+# --- Runtime ---
+LOG_LEVEL=INFO
+HEALTHCHECK_PORT=8080
+DEFAULT_LANGUAGE=en
