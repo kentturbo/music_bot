@@ -4,21 +4,7 @@ A high-performance, asynchronous Telegram bot designed for music search, metadat
 
 Built using **Python 3.12**, **aiogram v3**, **Celery**, **PostgreSQL**, and **Redis**.
 
----
 
-## 🎨 Interface Preview (Screenshots)
-
-> [!NOTE]
-> Below are placeholders. Replace these with actual images when deployed.
-
-| Interactive Flow | Preview |
-|---|---|
-| **Inline Music Search** (Multi-source results list) | ![Inline Search](screenshots/inline_search.png) |
-| **Track Dashboard & Playback** (Interactive cover and audio details) | ![Track Interface](screenshots/track_play.png) |
-| **Lyrics & Translations** (Synced scrolling text) | ![Lyrics Display](screenshots/lyrics.png) |
-| **Audio FX & Remix Panel** (Reverb, speed, pitch adjustments) | ![FX Panel](screenshots/fx_panel.png) |
-
----
 
 ## 🚀 Key Features
 
